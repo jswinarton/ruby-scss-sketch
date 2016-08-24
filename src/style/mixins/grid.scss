@@ -1,0 +1,6 @@
+@mixin baseline-grid($number) {
+  background-image: linear-gradient(to bottom, hsla(200, 100%, 50%, 3) 1px, transparent 1px);
+  background-position: left top;
+  background-repeat: repeat;
+  background-size: 100% $number + px;
+}

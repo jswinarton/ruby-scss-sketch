@@ -1,5 +1,44 @@
-@import url("https://fonts.googleapis.com/css?family=Cardo:400,400i,700");
+body {
+  font-family: Cardo, serif;
+  margin: 0;
+  @include baseline-grid(24);
+}
 
-html {
-  color: red;
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.oldstyle-numeral {
+  font-variant-numeric: oldstyle-nums;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: normal;
+  margin: 0 0 24px 0;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 24px 0;
+  font-weight: normal;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0 0 24px 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
 }
